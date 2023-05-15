@@ -8,23 +8,7 @@ import os
 st.title("Olivia Thor's Portfolio" )
 
 st.header("Welcome!")
-st.write("Hello! I'm a 19y/o Illustration Major at Parsons School of Design. Currently I've been interested in photobooks and visual development on projects. I've experimented with painting, graphic design, animation and more! Below you will see some of my past work either from college or high school, commissions or art programs I've tried from the past. Hope you enjoy!")
-
-st.header("Animations 2023")
-
-st.subheader("breathe - 4D Core Studio Final Animation")
-final4D = open('animations1.mp4', 'rb')
-video_bytes = final4D.read()
-st.video(video_bytes)
-st.write("A short animation about just taking a moment to sit and relax as life happens. Done with Adobe Photoshop, Illustrator, and Premiere Pro. Sounds pulled from freesounds.org")
-
-st.subheader("Pigeon Talk - 4D Core Studio Sound Animation")
-pigeon = open('animations2.mp4', 'rb')
-pigeon_bytes = pigeon.read()
-st.video(pigeon_bytes)
-st.write("A talk about the scandal of pigeons with Kirari T. and I. Drawn with chalk pastel, edit in Adobe Premiere Pro")
-
-st.write("---")
+st.write("Hello! I'm a 19y/o Illustration Major at Parsons School of Design. Currently I've been interested in photobooks and visual development on projects.Below you will see some of my past work either from high school, commissions or art programs I've tried from the past. Hope you enjoy!")
 
 #Illustrations
 st.header("Illustrations")
